@@ -17,8 +17,6 @@ def check_first_condition(courses_names: list, slots_names: list, id_pool: IDPoo
     
 def check_second_condition(courses_names: list, slots_names: list, id_pool: IDPool, glucose: Glucose3):
     ''' Each course must be offered in a maximum of one slot '''
-    print("=-==-==-=-=-= 2 =-=-=-=-=-")
-
     clauses_by_course = {}
     for course_name in courses_names:
         for slot_name in slots_names:
