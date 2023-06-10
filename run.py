@@ -13,7 +13,7 @@ glucose = Glucose3()
 id_pool = IDPool()
 
 
-print('-=-' * 20 + ' Solucionador de eventos ' + '-=-' * 20)
+print('-=-' * 10 + ' Solucionador de eventos ' + '-=-' * 10)
 
 courses_amount = int(input('Quantidade de cursos do evento -> '))
 
